@@ -132,12 +132,12 @@ body{
   }
   
   .sidebar-close-button{
-    border-radius: 50%;
+    border-radius: 40%;
     border: .1rem #000000 solid;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     padding: .5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 0;
     cursor: pointer;
     position: absolute;
