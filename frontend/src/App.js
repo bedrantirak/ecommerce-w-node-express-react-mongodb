@@ -1,4 +1,6 @@
+import React from 'react'
 import './App.css';
+import data from "./data"
 
 function App() {
 
@@ -51,7 +53,7 @@ function App() {
                       </div>
                      <div className="product-brand">{product.brand}</div>
                      <div className="product-price">${product.price}</div>
-                 <div className="product-rating">{product.rating} Stars {product.numberReviews}</div>
+                 <div className="product-rating">{product.rating} Stars {product.numReviews}</div>
                   </div>
 
               </li>    
