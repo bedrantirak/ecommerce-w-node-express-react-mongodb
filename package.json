@@ -4,7 +4,7 @@
   "description": "The project an e-commerce website with React and Redux for the front-end, node.js and express.js for back-end, database will be with mongoDB.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "nodemon --watch backend --exec babel-node backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/bedrantirak/ecommerce-w-node-express-react-mongodb/issues"
   },
-  "homepage": "https://github.com/bedrantirak/ecommerce-w-node-express-react-mongodb#readme"
+  "homepage": "https://github.com/bedrantirak/ecommerce-w-node-express-react-mongodb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
 }
