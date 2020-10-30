@@ -9,8 +9,7 @@
         price: 60,
         brand: " Nike",
         rating: 4.5,
-        numReviews: 10,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing"
+        numReviews: 10
       },
       {
         _id: "2",
@@ -20,8 +19,7 @@
         price: 50,
         brand: " Nike",
         rating: 4.1,
-        numReviews: 10,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing"
+        numReviews: 10
       },
       {
         _id: "3",
@@ -31,8 +29,7 @@
         price: 70,
         brand: " Nike",
         rating: 4.0,
-        numReviews: 8,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing"
+        numReviews: 8
 
       }, 
       {
@@ -43,8 +40,7 @@
         price: 70,
         brand: " Nike",
         rating: 4.0,
-        numReviews: 8,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing"
+        numReviews: 8
 
       },
 
