@@ -1,5 +1,4 @@
 import express from "express";
-import { Z_ASCII } from "zlib";
 import data from "./data"
 const app = express();
 
