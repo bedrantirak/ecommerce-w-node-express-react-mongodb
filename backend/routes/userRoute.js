@@ -1,7 +1,7 @@
 import express from "express";
 import User from "../models/userModel"
 const router = express.Router();
-router.get("/api/users/createadmin",async (req,res)=>{
+router.get("/createadmin", async (req,res)=>{
    try {
     const user = new User({
         name:"Bedran",
@@ -18,3 +18,4 @@ router.get("/api/users/createadmin",async (req,res)=>{
    }
   
 })
+export default router;
